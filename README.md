@@ -2,6 +2,8 @@
 
 Code Demonstrates what I believe is an issue with the Swift compiler's optimizer.
 
+Known to affect XCode Version 7.0.1 (7A1001). I don't know if I can mention if it affect pre-release version of XCode here. 
+
 The most relevant file is `CustomView.swift`
 The most relevant method is `_setup()` method in the `CustomView` class.
 
