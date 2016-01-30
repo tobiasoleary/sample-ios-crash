@@ -12,8 +12,8 @@
 		6162F9211BCD6E640015F36E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6162F91F1BCD6E640015F36E /* Main.storyboard */; };
 		6162F9231BCD6E640015F36E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6162F9221BCD6E640015F36E /* Assets.xcassets */; };
 		6162F9261BCD6E640015F36E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6162F9241BCD6E640015F36E /* LaunchScreen.storyboard */; };
-		6162F92E1BCD6E960015F36E /* LayoutConstraintFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6162F92D1BCD6E960015F36E /* LayoutConstraintFactory.swift */; settings = {ASSET_TAGS = (); }; };
-		6162F9301BCD6ECF0015F36E /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6162F92F1BCD6ECF0015F36E /* CustomView.swift */; settings = {ASSET_TAGS = (); }; };
+		6162F92E1BCD6E960015F36E /* LayoutConstraintFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6162F92D1BCD6E960015F36E /* LayoutConstraintFactory.swift */; };
+		6162F9301BCD6ECF0015F36E /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6162F92F1BCD6ECF0015F36E /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +101,7 @@
 				TargetAttributes = {
 					6162F9171BCD6E640015F36E = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 6F4ZXUJSJ4;
 					};
 				};
 			};
@@ -210,7 +211,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CompilerIssue",
@@ -265,7 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CompilerIssue",
